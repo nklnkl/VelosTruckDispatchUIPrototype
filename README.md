@@ -32,6 +32,24 @@
       </td>
     </tr>
 
+    <tr>
+      <td>
+        Search Box UI
+      </td>
+      <td>
+        Development
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Add Account UI
+      </td>
+      <td>
+        Development
+      </td>
+    </tr>
+
   </tbody>
 
 </table>

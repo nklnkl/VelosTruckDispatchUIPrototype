@@ -1,0 +1,46 @@
+/*
+  header.css
+*/
+
+/* OVERRIDE the navbar class */
+.navbar {
+  background-color: #3b62a1;
+  color: white;
+  border-radius: 0 !important;
+}
+/* OVERRIDE - the navbar-brand */
+.navbar-brand {
+  color: white;
+  font-size: 2.5em !important;
+  height: 100% !important;
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  border-right: 1px solid lightgrey;
+}
+/* Using this instead of the 'container' nav-bar wrapper class */
+.navbar-content {
+  max-width: 1466px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* OVERRIDE - the A tags in the navbar-nav class for */
+.navbar-nav > li > a {
+  color: white;
+  font-size: 16px;
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  border-right: 1px solid lightgrey;
+}
+/* OVERRIDE - the color of a nav item when hovered. */
+.navbar-nav > li > a:hover {
+  background-color: #2a4b7f !important;
+}
+/* OVERRIDE - navbar-right */
+.navbar-right {
+  margin-right: 0 !important;
+}
