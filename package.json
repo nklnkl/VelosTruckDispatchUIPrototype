@@ -14,5 +14,10 @@
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0",
     "grunt": "latest"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-uglify": "~0.10.0"
   }
 }
