@@ -16,19 +16,10 @@
 
     <tr>
       <td>
-        Application Header UI (html/css)
+        Application Header UI
       </td>
       <td>
-        Almost done, clean up colors and spacing
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        Application Header UI (js)
-      </td>
-      <td>
-        Development
+        Test Stable, might need to be redone bootstrap style
       </td>
     </tr>
 
@@ -37,7 +28,7 @@
         Search Box UI
       </td>
       <td>
-        Markup is done, CSS needs clean up, might need js
+        Test Stable, CSS needs clean up, might need js
       </td>
     </tr>
 
@@ -55,7 +46,25 @@
         Generic Box Container w/dropdown class
       </td>
       <td>
-        Almsot done, just clean up css
+        Test Stable, just clean up css
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Load test data function
+      </td>
+      <td>
+        Not started
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Render test data function
+      </td>
+      <td>
+        Not started
       </td>
     </tr>
 
