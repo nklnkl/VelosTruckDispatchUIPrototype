@@ -37,7 +37,7 @@
         Search Box UI
       </td>
       <td>
-        Development
+        Markup is done, CSS needs clean up, might need js
       </td>
     </tr>
 
