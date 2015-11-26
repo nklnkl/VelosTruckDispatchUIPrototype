@@ -3,13 +3,13 @@
 
   <head>
     <title>Velos - Truck Dispatch - UI Prototype</title>
-    <link rel="stylesheet" href="stylesheets/style.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <!-- Depedencies via CDN, please inform if we need these local -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css"/>
   </head>
 
-  <body>
+  <body class="ui container-fluid">
 
     <!-- Header section that can include main navigation and page header/logos/etc. -->
     <header>
@@ -34,7 +34,7 @@
                 <a href="#">Dashboard</a>
               </li>
               <li>
-                <a href="#">Manage Account</a>
+                <a href="#">Manage Accounts</a>
               </li>
               <li>
                 <a href="#">Manage Users</a>
@@ -70,9 +70,16 @@
 
     </header>
 
-    <!--
-      FOOTER omitted at client's request.
-    -->
+    <section class="ui row search">
+      <input type="text" class="col-sm-8" placeholder="Search" />
+      <select class="col-sm-3">
+        <option>Result Type 1</option>
+        <option>Result Type 2</option>
+        <option>Result Type 3</option>
+        <option>Result Type 4</option>
+      </select>
+      <button class="col-sm-1">SEARCH</button>
+    </section>
 
   </body>
 
