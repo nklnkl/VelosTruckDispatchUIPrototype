@@ -4,6 +4,8 @@
   <head>
     <title>Velos - Truck Dispatch - UI Prototype</title>
     <link rel="stylesheet" href="style.css"/>
+    <script src="lib/jquery-2.1.4.min.js"></script>
+    <script src="script.js"></script>
     <!-- Depedencies via CDN, please inform if we need these local -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css"/>
@@ -71,14 +73,32 @@
     </header>
 
     <section class="ui row search">
-      <input type="text" class="col-sm-8" placeholder="Search" />
+      <input type="text" class="ui col-sm-8" placeholder="Search" />
       <select class="col-sm-3">
         <option>Result Type 1</option>
         <option>Result Type 2</option>
         <option>Result Type 3</option>
         <option>Result Type 4</option>
       </select>
-      <button class="col-sm-1">SEARCH</button>
+      <button class="ui col-sm-1">SEARCH</button>
+    </section>
+
+    <section class="ui row row-clear">
+      <h4>Manage Account</h4>
+    </section>
+
+    <section class="ui row">
+
+      <article class="ui box">
+        <header>
+          <span>Add Account (s)</span>
+          <span class="box-button glyphicon glyphicon-triangle-bottom"></span>
+        </header>
+        <div>
+          i am child lol
+        </div>
+      </article>
+
     </section>
 
   </body>
